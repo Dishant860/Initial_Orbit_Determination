@@ -1,0 +1,3 @@
+from orbital_classifier_pipeline import OrbitalClassifier
+classifier = OrbitalClassifier()
+results_df = classifier.predict_from_csv('your_data.csv')
